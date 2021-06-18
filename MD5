@@ -1,0 +1,7 @@
+f529121f49042c53e88105031bafe48c *DESCRIPTION
+a6ce2bce819ed260866b75227c5f5d78 *NAMESPACE
+a590d951eb6bd4d0e96d0e8db1dac0e1 *R/install.R
+26ee67c2665d72a60d05b603bf7c59d1 *README.md
+52a134c61e6f496b9cea3db7dbdddad3 *man/install.Rd
+d456fb44758cf5d280b807651219076c *tests/testthat.R
+9357735aff3612c32ed8cbd02d810473 *tests/testthat/test-lints.R

@@ -2,23 +2,24 @@
 
 <!-- badges: start -->
 
-[![codecov](https://codecov.io/gh/joundso/requirements/branch/master/graph/badge.svg)](https://codecov.io/gh/joundso/requirements)
+[![codecov](https://codecov.io/gh/joundso/requirements/branch/master/graph/badge.svg)](https://app.codecov.io/gh/joundso/requirements)
 [![CRAN Status Badge](https://www.r-pkg.org/badges/version-ago/requiRements)](https://cran.r-project.org/package=requiRements)
-<!-- [![Cran Checks](https://cranchecks.info/badges/worst/requiRements)](https://cran.r-project.org/web/checks/check_results_requiRements.html) -->
+[![CRAN Checks](https://badges.cranchecks.info/worst/requiRements.svg)](https://cran.r-project.org/web/checks/check_results_requiRements.html)
 
 <!-- badges: end -->
 
-The R package `requiRements` provides utility functions used to access a running Mainzelliste-Instance.
+The R package `requiRements` provides the ability to install all packages provided in a text or given a raw string.
+This is meant to simply keep all e.g project dependent packages in one file (like the demo `requirements.txt` within `./data-raw/requirements.txt`) and install them all in a rush by using `requiRements::install("./requirements.txt")`.
+
+This is well known from python and now available within R.
 
 ## Installation
 
-<!---
 You can install `requiRements` directly from CRAN:
 
 ```r
 install.packages("requiRements")
 ```
--->
 
 The development version can be installed using
 

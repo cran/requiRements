@@ -1,7 +1,7 @@
-5daee44ad37660291bc50704c2403abb *DESCRIPTION
+72311e2c6577a85ed520dad108e8028e *DESCRIPTION
 a6ce2bce819ed260866b75227c5f5d78 *NAMESPACE
-a590d951eb6bd4d0e96d0e8db1dac0e1 *R/install.R
-9863bd335b4db4f9f65a71d06b4cd278 *README.md
-52a134c61e6f496b9cea3db7dbdddad3 *man/install.Rd
+4e7ba5b56658eccefafc2a0e4ebab9f9 *R/install.R
+fe8c0f019052bef71ab2f35588db22a7 *README.md
+eb20e8f8db0e9f3f22a6a4b385dafd4f *man/install.Rd
 d456fb44758cf5d280b807651219076c *tests/testthat.R
 9357735aff3612c32ed8cbd02d810473 *tests/testthat/test-lints.R

@@ -35,10 +35,10 @@ devtools::install_github("joundso/requirements", ref = "development")
 ```r
 ## Test it with a string:
 demo_string <- "
-DIZutils
+DIZtools
 data.table
 joundso/mainzelliste-connector
-miracum/misc-dizutils@development
+miracum/misc-diztools@dev
 # this_one_will_be_ignored
 "
 requiRements::install(packages = demo_string)
@@ -51,10 +51,10 @@ requiRements::install(packages = demo_string)
 demo_vec <-
   c(
     "",
-    "DIZutils",
+    "DIZtools",
     "data.table",
     "joundso/mainzelliste-connector",
-    "miracum/misc-dizutils@development",
+    "miracum/misc-diztools@dev",
     "# this_one_will_be_ignored"
   )
 requiRements::install(packages = demo_vec)
@@ -84,11 +84,11 @@ requiRements::install(packages = demo_vec,
 
 ### Supported syntax
 
-|           Platform           |        Syntax        |                                 Example                                 |
-| :--------------------------: | :------------------: | :---------------------------------------------------------------------: |
-|             CRAN             |    `packagename`     |            `requiRements::install(packages = "data.table")`             |
-|            GitHub            |   `user/repo-name`   |  `requiRements::install(packages = "joundso/mainzelliste-connector")`   |
-| GitHub with Branch/Reference | `user/repo-name@ref` | `requiRements::install(packages = "miracum/misc-dizutils@development")` |
+|           Platform           |        Syntax        |                               Example                                |
+| :--------------------------: | :------------------: | :------------------------------------------------------------------: |
+|             CRAN             |    `packagename`     |           `requiRements::install(packages = "data.table")`           |
+|            GitHub            |   `user/repo-name`   | `requiRements::install(packages = "joundso/mainzelliste-connector")` |
+| GitHub with Branch/Reference | `user/repo-name@ref` |   `requiRements::install(packages = "miracum/misc-diztools@dev")`    |
 
 ## :bulb: You can improve this package
 
@@ -100,5 +100,5 @@ requiRements::install(packages = demo_vec,
 ## More Infos
 
 - About MIRACUM: <https://www.miracum.org/>
-- About the Medical Informatics Initiative: <https://www.medizininformatik-initiative.de/index.php/de>
+- About the Medical Informatics Initiative: <https://www.medizininformatik-initiative.de/de/start>
 - Alternative solution: Package [`Require`](https://github.com/PredictiveEcology/Require)
